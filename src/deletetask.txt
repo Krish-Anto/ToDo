@@ -1,0 +1,32 @@
+const deleteTask = (index) => {
+    setTasks(tasks.filter((item, i) => i !== index));
+  };
+  
+  
+  i ===  index    =>  current index(i) match with specified index (index) 
+                  => exclude filtered array
+  
+  i !== index   =>  current index(i) is different from specified index (index) 
+                 => include filtered array
+  
+  
+  const deleteTask = (1) => {
+    setTasks(tasks.filter((item, 0) => i !== index));
+  };
+  
+  i =0 ,  0 !== 1  => true   => include
+  i =1,   1 !== 1  => false   => exclude
+  
+  example
+  -----------
+  
+  
+  const index = 1
+  
+  const nums = [10,20,30,40,50]
+  //[10,20,30,40,50]
+  //  0, 1,2,3,4
+  const result = nums.filter((_, i) => i !== index)
+  
+  console.log(result)
+  
